@@ -11,6 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "build:docker": "npm run build && docker build -t vindu-display:$npm_package_version -t vindu-display:latest .",
     "eject": "react-scripts eject"
   }
 }

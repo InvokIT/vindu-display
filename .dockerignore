@@ -3,8 +3,9 @@ node_modules/
 # testing
 coverage/
 
-# production
-build/
+# src
+public/
+src/
 
 # misc
 .DS_Store
